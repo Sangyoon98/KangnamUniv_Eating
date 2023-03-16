@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+	<Button
+		android:id="@+id/dosirak1"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="토마토"/>
+	
+	<Button
+		android:id="@+id/dosirak2"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="한솥"/>
+	
+	<Button
+		android:id="@+id/dosirak3"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="아라통돼지도시락"/>
+
+</LinearLayout>

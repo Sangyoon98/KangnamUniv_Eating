@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+	<Button
+		android:id="@+id/korean1"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="김가네"/>
+	
+	<Button
+		android:id="@+id/korean2"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="국수나무"/>
+	
+	<Button
+		android:id="@+id/korean3"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="야미가"/>
+	
+	<Button
+		android:id="@+id/korean4"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="안동찜닭"/>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+	<Button
+		android:id="@+id/bunsik1"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="신전떡볶이"/>
+	
+	<Button
+		android:id="@+id/bunsik2"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="마퐁떡볶이"/>
+	
+	<Button
+		android:id="@+id/bunsik3"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="배터지는 생동까스"/>
+	
+	<Button
+		android:id="@+id/bunsik4"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="눈물 떡볶이"/>
+	
+	<Button
+		android:id="@+id/bunsik5"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="엽기떡볶이"/>
+	
+</LinearLayout>

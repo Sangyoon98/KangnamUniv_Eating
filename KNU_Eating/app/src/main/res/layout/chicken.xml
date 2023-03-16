@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+	<Button
+		android:id="@+id/chicken1"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="엽기팔닭"/>
+	<Button
+		android:id="@+id/chicken2"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="네네치킨"/>
+	<Button
+		android:id="@+id/chicken3"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="꼬꼬마루"/>
+	<Button
+		android:id="@+id/chicken4"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="처갓집양념치킨"/>
+	<Button
+		android:id="@+id/chicken5"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="투마리치킨"/>
+	<Button
+		android:id="@+id/chicken6"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/button"
+		android:text="호식이두마리치킨"/>
+	
+</LinearLayout>

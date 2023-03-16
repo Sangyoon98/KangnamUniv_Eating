@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/imagescroll"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:background="#2597e2">
+	
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+	
+	<ImageView
+		android:id="@+id/mainImageView"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:src="@drawable/mainimage"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/Button1"
+			android:layout_height="170dp"
+			android:layout_width="fill_parent"
+			android:background="@drawable/bap"
+			android:text=""/>
+		
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		
+		<Button
+			android:id="@+id/Button2"
+			android:layout_height="170dp"
+			android:layout_width="fill_parent"
+			android:background="@drawable/game"
+			android:text=""/>
+
+	</LinearLayout>
+
+</LinearLayout>
+</ScrollView>
